@@ -1,0 +1,205 @@
+﻿body 
+{
+    background-color: #d5d5d5;
+    font-family: 'Trebuchet MS', Arial ,' Comic Sans MS';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a
+{text-decoration: none;
+ color: black;
+    }
+    a:hover
+    {color:#999; 
+        }
+
+#wrapper 
+{
+ width: 960px;
+ height: auto;
+ margin : 0 auto;
+ 
+    }
+ header 
+ {
+  float: left;
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+     } 
+   header .logo
+     {
+      float: left;
+      width: 89px;
+      height: 45px;
+      border-right: 1px solid red;
+       text-align: center;
+       line-height: 45px;
+       color: red;
+        background-image: url('/images/hk.jpg');
+      }
+header nav 
+{
+      float: left;
+      width: 609px;
+      height: 45px;
+      border-right: 1px solid #ff0000;
+      line-height: 45px;
+     
+     }
+     header nav ul   {
+         list-style: none;
+         }
+    header nav ul li{
+      float: left;
+      margin: 0 10px;
+      color: #555;
+         }      
+   header nav ul li.konular-wrap
+{
+    position: relative;
+}   
+    header nav ul li.konular-wrap .konular
+{   display: none;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    }
+  header .search-wrap {
+      float: left;
+      width: 260px; 
+      height: 45px;
+      
+         }
+  header  .search-wrap .txtSearch {
+      float: left;
+      width: 190px;
+      height: 25px;
+      padding: 10px; 
+         }
+             
+     header .search-wrap .btnSearch {
+      float: left;
+      width: 49px;
+      height: 45px;
+      border-left: 1px solid #ff0000;
+       background-image: url('/images/fts.jpg');
+     }
+         .banner {
+      float: left;
+      width: 960px;
+      height :360px;
+      margin-top: 45px;
+      background-image: url('/images/indir.jpg');
+      background-size: cover; 
+      color: #fff;
+      line-height: 360px;
+      text-align: center;
+      font-size: 56px;
+      }
+.sol-taraf {
+      float: left;
+      width: 285px;
+      height: auto;
+      margin-top: 45px;
+      }
+  .sol-taraf .hizli-kayit {
+      float: left;
+      width: 285px;
+      height: auto;
+      }
+   .sol-taraf .hizli-kayit .ust {
+      float: left;
+      width: 270px;
+      color: #555;
+      height: 44px;
+      line-height:44px;
+      padding-left:15px;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+          }  
+   .sol-taraf .hizli-kayit .alt {
+      float: left;
+      color: #555;
+      width: 250px;
+      height: 190px;
+      padding: 17.5px;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+          }
+  .sol-taraf .hizli-kayit .alt .sifre
+  {
+    margin-top: 15px;
+      }         
+                      
+   .sol-taraf .hizli-kayit .alt .textbox{
+    width: 248px;
+    height: 38px;
+    border: 1px solid #ccc;
+} 
+.sol-taraf .hizli-kayit .alt .btnKayit
+{float: right;
+ width: 100px;
+ height: 40px;
+ line-height: 40px;
+ text-align: center;
+ color: #fff;
+ background-color: #0099CC;
+ margin-top: 10px;
+}
+.sol-taraf .duyurular
+{float: left;
+  width: 285px;
+ height: auto;
+ margin-top: 45px;
+
+    }
+   .sol-taraf .duyurular .ust {
+      float: left;
+      width: 270px;
+      color: #555;
+      height: 44px;
+      line-height:44px;
+      padding-left:15px;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+          }  
+  .sol-taraf .duyurular .alt {
+      float: left;
+      color: #555;
+      width: 250px;
+      height: auto;
+      padding: 17.5px;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+          }
+    .sol-taraf .duyurular .alt .duyuru-wrap
+    { float: left;
+      width: 100%;
+      height: auto;
+      background-color: #d5d5d5;
+    }       
+   .icerik {
+      float: right;
+      width: 625px;
+      height: 500px;
+      margin-top: 45px;
+      background-color: #fff;
+       background-image: url('/images/paris.jpg');
+     }
+     footer {
+      float: left;
+      width: 100%;
+      height: 60px;
+      margin-top: 45px;
+      text-align: center;
+      line-height: 60px;
+      color: black;
+      background-color: #fff;
+     
+       }

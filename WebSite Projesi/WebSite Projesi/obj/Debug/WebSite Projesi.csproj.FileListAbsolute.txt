@@ -1,0 +1,4 @@
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Database1\WebSite Projesi\WebSite Projesi\bin\WebSite Projesi.dll
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Database1\WebSite Projesi\WebSite Projesi\bin\WebSite Projesi.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Database1\WebSite Projesi\WebSite Projesi\obj\Debug\WebSite Projesi.dll
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Database1\WebSite Projesi\WebSite Projesi\obj\Debug\WebSite Projesi.pdb
